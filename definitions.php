@@ -17,7 +17,7 @@ ET::$languageInfo["Russian"] = array(
 
 // Define the character set that this language uses.
 $definitions["charset"] = "utf-8";
-$definitions["date.full"] = "d.m.Y H:i:s"; // see http://au.php.net/manual/en/function.date.php for details
+$definitions["date.full"] = "%c"; // see http://au.php.net/manual/en/function.date.php for details
 
 $definitions["%d day ago"] = "вчера";
 $definitions["%d days ago"] = "%d дн. назад";
